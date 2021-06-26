@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="card">
+      <div class="img__box">
+        <img src="images/illustration-box-desktop.svg" alt="box" />
+      </div>
+      <div class="card__img">
+        <img
+          src="images/illustration-woman-online-desktop.svg"
+          alt="woman online desktop"
+        />
+      </div>
+      <div class="card__text">
+        <h1>FAQ</h1>
+
+        <div class="accordion__container">
+          <div class="accordion__item">
+            <div class="question__panel" id="qp1">
+              How many team members can I invite?
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="arrow"
+                class="arrow__icon"
+              />
+            </div>
+            <div class="answer__panel" id="ap1">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <div class="question__panel" id="qp2">
+              What is the maximum file upload size?
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="arrow"
+                class="arrow__icon"
+              />
+            </div>
+            <div class="answer__panel" id="ap2">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <div class="question__panel" id="qp3">
+              How do I reset my password?
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="arrow"
+                class="arrow__icon"
+              />
+            </div>
+            <div class="answer__panel" id="ap3">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <div class="question__panel" id="qp4">
+              Can I cancel my subscription?
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="arrow"
+                class="arrow__icon"
+              />
+            </div>
+            <div class="answer__panel" id="ap4">
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <div class="question__panel" id="qp5">
+              Do you provide additional support?
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="arrow"
+                class="arrow__icon"
+              />
+            </div>
+            <div class="answer__panel" id="ap5">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
